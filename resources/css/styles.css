@@ -1,0 +1,101 @@
+:root {
+    color-scheme: dark;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #CCCCCC !important;
+}
+
+body {
+  background-color: #333333;
+}
+
+table, td, th {
+    border: 2px solid #666666;
+    font-size: 100%;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scrollable {
+    overflow-x: auto;
+}
+
+td, th {
+    padding: 0.75em;
+}
+
+a:link {
+	color: #CCCCCC;
+}
+  
+a:visited {
+	color: #CCCCCC;
+}
+
+a:hover {
+	color: goldenrod;
+}
+
+a:active {
+	color: #CCCCCC;
+}
+
+.tableadd {
+    width: 30%;
+}
+
+.tableedit {
+    width: 30%;
+}
+
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  color: #CCCCCC;
+  text-align: center;
+}
+
+h3 {
+    color: #CCCCCC;
+    text-align: center;
+}
+  
+footer {
+    color: #CCCCCC;
+    text-align: center;
+}
+
+.return {
+    color: #CCCCCC;
+    text-align: center;
+}
+
+.searchbar {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.searchbar input {
+    font-size: 125%;
+    font-family: 'Montserrat', sans-serif;
+    color: #CCCCCC !important;
+}
+
+.addedittext {
+    font-size: 110%;
+    font-family: 'Montserrat', sans-serif;
+    color: #CCCCCC !important;
+}
+
+.editbutton {
+    font-size: 125%;
+    font-family: 'Montserrat', sans-serif;
+}

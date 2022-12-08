@@ -1,0 +1,1 @@
+<p class="return"><a href="index.php?action=seriesList">Enter</a></p>
