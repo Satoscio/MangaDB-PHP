@@ -1,14 +1,16 @@
 <div class="searchbar" >
     <input type="text" id="searchInput" onkeyup="search()" placeholder="Search everything...">
 </div>
+<div class="searchbar" >
+    <button class="editbutton" onclick="window.location.href='index.php?action=seriesViewAdd';">Add Series</button>
+</div>
 <div class="scrollable">
     
     <table class="center" id="mangaTable">
         <tr>
-            <th width="4%"><a href="index.php?action=seriesViewAdd"><span class="material-icons">add_circle</span></a></th>
-            <th width="23%">Title</th>
-            <th width="13%">Author</th>
-            <th width="13%">Artist</th>
+            <th width="25%">Title</th>
+            <th width="14%">Author</th>
+            <th width="14%">Artist</th>
             <th width="8%">Genre</th>
             <th width="9%">Publisher</th>
             <th width="6%">Language</th>
@@ -29,8 +31,6 @@
                 }
         ?>
                 <tr>
-
-                    <td><?= $r -> id; ?></td>
                     <td><?= $r -> name; ?></td>
                     <td><?= $r -> author; ?></td>
                     <td><?= $r -> artist; ?></td>
