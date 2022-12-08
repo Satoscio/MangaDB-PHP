@@ -22,6 +22,7 @@ Case insensitive search
 | Add | Edit |
 | --- | ---- |
 | ![Add](https://fumetteria.moe/wp-content/uploads/2022/12/add.png) | ![Edit](https://fumetteria.moe/wp-content/uploads/2022/12/edit.png) |
+
 Same page style for adding/editing
 
 ~ Bogdan Budei (Satoscio)
